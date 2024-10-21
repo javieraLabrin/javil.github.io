@@ -1,0 +1,51 @@
+@base <http://users.dcc.uchile.cl/~ahogan/foaf.ttl> .
+
+@prefix ah: <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2024-10-21"^^xsd:date ;
+   dc:title "Javiera's FOAF Profile"@en ;
+   foaf:primaryTopic <#javieral> ;
+   dc:creator <#javieral> .
+
+<#javieral> a foaf:Person ;
+   rdfs:label "Javiera Labrin" ;
+   rdfs:comment "Student of the DCC"@es , "Estudiante del DCC"@es ;
+   foaf:name "Javiera Labrin" ;
+   foaf:givenName "Javiera" ;
+   foaf:familyName "Labrin" ;
+   foaf:age 24 ; # it would be better to put date of birth to not have to update every birthday, but hey :)
+   foaf:img <https://i.pinimg.com/564x/dd/17/68/dd1768d82348a610258369101e5ce37b.jpg> ;
+   foaf:homepage <https://www.linkedin.com/in/javiera-labr%C3%ADn/> ;
+   foaf:knows <https://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah> ;
+   foaf:interest dbr:Semantic_Web , dbr:Swim , dbr:Humita , dbr:Computer_science ; 
+   social:likesMovie dbr:Shrek , dbr:Shrek_2 ;
+   social:hasSpiritAnimal dbr:Dragon ;
+   social:hasFavouritePlatonicSolid dbr:Sphere ;
+   foaf:nick "Javi" ;
+   foaf:mbox "javiera.labrin@ug.uchile.cl" .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
